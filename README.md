@@ -1,2 +1,2 @@
-# project_one
+# project
 some code for git
