@@ -13,3 +13,9 @@ $txt = "На вашем сайте оформлен заказ"; // отправ
 return fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r"); //Передаем данные боту
 }
 }
+
+// для нескольких пользователей со своими chat_id
+// $chatIds = array("5931420840","237935523б");
+//        foreach($chatIds as $chatId) {
+//            file_get_contents("https://api.telegram.org/bot{$token}/sendMessage?chat_id=$chatId&text=".$message);
+//        }
