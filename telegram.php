@@ -15,7 +15,7 @@ return fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id
 }
 
 // для нескольких пользователей со своими chat_id
-// $chatIds = array("5931420840","237935523б");
+// $chatIds = array("xxxxxxxxx","xxxxxxxxx");
 //        foreach($chatIds as $chatId) {
 //            file_get_contents("https://api.telegram.org/bot{$token}/sendMessage?chat_id=$chatId&text=".$message);
 //        }
